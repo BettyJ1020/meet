@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: rgb(252, 252, 252); 
+    width: 700px; /* Adjust the width to your desired fixed size */
+    height: 600px; /* Adjust the height to your desired fixed size */
+    margin-top: 150px;
+    margin-left: 150px; 
+    margin-right: auto; /* Align to the left */
+    padding: 20px;
+    gap: 40px;
+}
+
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: rgb(255, 255, 255); 
+    width: 700px; /* Adjust the width to your desired fixed size */
+    height: 600px; /* Adjust the height to your desired fixed size */
+    margin-top: 150px;
+    margin-left: auto; /* Align to the right */
+    margin-right: 150px; /* Align to the right */
+    padding: 20px;
+    gap: 40px;
+}
+
+
+
+
+.inputsContainer {
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    gap: 70px;
+} 
+
+.input {
+    display: flex; 
+    align-items: center;
+    margin: auto;
+    width: 480px; /* Adjust the width as needed */
+    height: 80px; /* Adjust the height as needed */
+    background: #eaeaea;
+    border-radius: 15px;
+}
+
+.input input {
+    height: 50px;
+    width: 350px;
+    /* background: transparent;
+    border: none; */
+    margin-left: 30px; /* Align to the right */
+    outline: none;
+    color: #797979;
+    font-size: 30px;
+}
+
+.submitButton {
+    width: 180px; /* Adjust the width as needed */
+    height: 70px; /* Adjust the height as needed */
+    border-radius: 40px;
+    font-size: 25px;
+    border: none;
+}
+
+
+
+

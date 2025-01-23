@@ -1,0 +1,12 @@
+.weekDiv {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 1rem;
+}
+
+#calendarHead {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem, 0;
+}
+
